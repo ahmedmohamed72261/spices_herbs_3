@@ -1,0 +1,29 @@
+/* Product Category Filters */
+#category-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+#category-filters .nav-item {
+  margin: 0 5px 10px;
+}
+
+#category-filters .nav-link {
+  background-color: #f8f9fa;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#category-filters .nav-link:hover,
+#category-filters .nav-link.active {
+  background-color: #0E9B4C;
+  color: #fff;
+  border-color: #0E9B4C;
+}
